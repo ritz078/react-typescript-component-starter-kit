@@ -11,6 +11,7 @@ storiesOf("Button", module).add("Playground", () => (
     onClick={action("click")}
     kind={select("kind", kind, "primary")}
     outline={boolean("outline")}
+    scale={select("scale", ["normal", "small", "big"], "normal")}
   >
     Submit
   </Button>

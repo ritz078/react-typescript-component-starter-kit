@@ -1,6 +1,6 @@
 {
-  "name": "react-typescript-plugin-starter-kit",
-  "alias": "react-typescript-plugin-starter-kit",
+  "name": "react-typescript-component-starter-kit",
+  "alias": "react-typescript-component-starter-kit",
   "engines": {
     "node": "9.x.x"
   },

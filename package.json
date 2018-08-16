@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-plugin-starter-kit",
+  "name": "react-typescript-component-starter-kit",
   "version": "1.0.0",
   "main": "dist/plugin.js",
   "module": "dist/plugin.es.js",

@@ -6,12 +6,12 @@ setOptions({
    * name to display in the top left corner
    * @type {String}
    */
-  name: "pebble",
+  name: "react-typescript-component-starter-kit",
   /**
    * URL for name in top left corner to link to
    * @type {String}
    */
-  url: "https://github.com/ritz078/react-typescript-plugin-starter-kit",
+  url: "https://github.com/ritz078/react-typescript-component-starter-kit",
   /**
    * show addon panel as a vertical panel on the right
    * @type {Boolean}

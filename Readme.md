@@ -58,6 +58,7 @@ module.exports = (baseConfig, env, config) => {
     require.resolve("@babel/preset-env")
   ];
 
+  // any plugin you want to add
   defaultConfig.module.rules[0].use[0].options.plugins = [
     require.resolve("@babel/plugin-proposal-object-rest-spread")
   ];

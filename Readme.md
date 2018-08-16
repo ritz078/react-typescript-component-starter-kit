@@ -4,7 +4,7 @@
 
 #### There are already so many starter kits. Why this?
 
-> Yes, I am already aware of those but setting up Babel 7 with storybook and typescript was not that straightforward 😥. This repo is mainly for that. Other things are just extras which I use personally.
+> Yes, I am already aware of those but setting up Babel 7 with storybook and typescript was [not that straightforward](https://twitter.com/ritz078/status/1029784078508118016) 😥. This repo is mainly for that. Other things are just extras which I use personally.
 
 ### Features
 

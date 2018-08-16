@@ -1,24 +1,30 @@
 # react-typescript-component-starter-kit
 
-## Features
+> A React component starter kit written in Typescript using the power of Babel 7 and Webpack 4.
 
-- Typescript
-- emotion
-- Babel 7
-- Webpack 4
-- Storybook (full of addons)
-- Docz for documentation
-- Testing suite (jest, enzyme, sinon, codecov)
-- Travis
-- prettier on staged files.
-- automatic now.sh PR deployment.
-- Rollup for smaller builds (cjs, umd and es builds).
+#### There are already so many starter kits. Why this?
 
-## Scripts
+> Yes, I am already aware of those but setting up Babel 7 with storybook and typescript was not that straightforward 😥. This repo is mainly for that. Other things are just extras which I use personally.
+
+### Features
+
+- [Typescript](https://www.typescriptlang.org/)
+- [emotion](https://emotion.sh/)
+- [Babel](https://babeljs.io/) 7
+- [Webpack](https://webpack.js.org/) 4
+- [Storybook](https://storybook.js.org/) (full of addons)
+- [docz](https://github.com/pedronauck/docz) for documentation
+- Testing suite ([jest](https://jestjs.io/), [enzyme](http://airbnb.io/enzyme/), [sinon](https://sinonjs.org/), [codecov](https://codecov.io))
+- [Travis](https://travis-ci.org/)
+- [Prettier](https://prettier.io/) on staged files
+- Automatic [now.sh](https://zeit.co/now) PR deployment.
+- [rollup](https://rollupjs.org/guide/en) for smaller builds (cjs, umd and es builds).
+
+### Scripts
 
 - `yarn storybook`: Run storybook in dev mode.
 - `yarn build-storybook`: Build storybook.
-- `yarn build`: Build your components and put them in dist directory.
+- `yarn build`: Build your components and put them in dist directory. Creates the umd, es and cjs builds.
 - `yarn build:watch`: Build your files while you make code changes.
 - `yarn test:cover`: Run tests and report coverage to codecov.
 - `yarn test`: Run tests.

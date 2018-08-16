@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "10"
+env:
+  - CI=true
+cache: yarn
+git:
+  depth: 5
+script:
+  - yarn test:cover

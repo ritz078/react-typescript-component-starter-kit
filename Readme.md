@@ -12,7 +12,7 @@
 - [emotion](https://emotion.sh/)
 - [Babel](https://babeljs.io/) 7
 - [Webpack](https://webpack.js.org/) 4
-- [Storybook](https://storybook.js.org/) (full of addons)
+- [Storybook](https://storybook.js.org/) (all the necessary addons)
 - [docz](https://github.com/pedronauck/docz) for documentation
 - Testing suite ([jest](https://jestjs.io/), [enzyme](http://airbnb.io/enzyme/), [sinon](https://sinonjs.org/), [codecov](https://codecov.io))
 - [Travis](https://travis-ci.org/)

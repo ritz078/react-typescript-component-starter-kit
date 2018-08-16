@@ -44,6 +44,57 @@ Few scripts are already written to make your life easier.
 
 > Storybook has a lot of addons that help while development whereas docz seems great for detailed documentation and a pretty looking website. Also docz is slow if you are rendering PropsTable as it has to parse through the whole tree on every change.
 
+#### What if I don't want to disturb the old .babelrc (having babel 6) and run storybook with Babel 7.
+
+Do the following in `.storybook/webpack.config.js`.
+
+```js
+module.exports = (baseConfig, env, config) => {
+  //babel-loader@8 installed and @babel/core@7
+  defaultConfig.module.rules[0].use[0].loader = require.resolve("babel-loader");
+
+  defaultConfig.module.rules[0].use[0].options.presets = [
+    require.resolve("@babel/preset-react"),
+    require.resolve("@babel/preset-env")
+  ];
+
+  defaultConfig.module.rules[0].use[0].options.plugins = [
+    require.resolve("@babel/plugin-proposal-object-rest-spread")
+  ];
+
+  config.module.rules.push({
+    test: /\.(ts|tsx)$/,
+    use: [
+      {
+        loader: require.resolve("babel-loader"),
+        options: {
+          babelrc: false,
+          presets: [
+            require.resolve("@babel/preset-react"),
+            require.resolve("@babel/preset-env")
+          ],
+          plugins: [
+            require.resolve("@babel/plugin-proposal-object-rest-spread")
+          ]
+        }
+      },
+      {
+        loader: require.resolve("awesome-typescript-loader")
+      },
+      {
+        loader: require.resolve("@storybook/addon-storysource/loader"),
+        options: {
+          parser: "typescript"
+        }
+      }
+    ]
+  });
+
+  config.resolve.extensions.push(".ts", ".tsx", ".json");
+  return config;
+};
+```
+
 **Note**: All the tools used in this repo are free for open source. Services like **now**, **codecov** and **travis** are not free for closed source projects.
 
 ## License

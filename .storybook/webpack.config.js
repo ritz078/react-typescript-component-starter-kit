@@ -1,9 +1,4 @@
 module.exports = (baseConfig, env, config) => {
-  config.module.rules.unshift({
-    test: /font.*\.svg$/,
-    loader: require.resolve("file-loader")
-  });
-
   config.module.rules.push({
     test: /\.(ts|tsx)$/,
     use: [

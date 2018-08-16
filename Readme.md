@@ -22,6 +22,12 @@
 
 ### Scripts
 
+Few scripts are already written to make your life easier.
+
+#### Why use rollup with typescript?
+
+typescript can automatically convert the code to ES5 but I was more concerned about the file size so I am using typescript to convert `.tsx` to `.js` is ES6 and then rollup converts those files into **cjs**, **umd** and **es** builds.
+
 - `yarn storybook`: Run storybook in dev mode.
 - `yarn build-storybook`: Build storybook.
 - `yarn build`: Build your components and put them in dist directory. Creates the umd, es and cjs builds.
@@ -33,6 +39,8 @@
 - `yarn test:watch`: Run tests while you make changes.
 - `yarn format`: Run prettier on all supported files.
 - `yarn deploy`: Deploy storybook on now.sh
+
+All the tools used in this repo are free for open source. Services like **now**, **codecov** and **travis** are not free for closed source projects.
 
 ## License
 

@@ -24,10 +24,6 @@
 
 Few scripts are already written to make your life easier.
 
-#### Why use rollup with typescript?
-
-typescript can automatically convert the code to ES5 but I was more concerned about the file size so I am using typescript to convert `.tsx` to `.js` is ES6 and then rollup converts those files into **cjs**, **umd** and **es** builds.
-
 - `yarn storybook`: Run storybook in dev mode.
 - `yarn build-storybook`: Build storybook.
 - `yarn build`: Build your components and put them in dist directory. Creates the umd, es and cjs builds.
@@ -40,7 +36,15 @@ typescript can automatically convert the code to ES5 but I was more concerned ab
 - `yarn format`: Run prettier on all supported files.
 - `yarn deploy`: Deploy storybook on now.sh
 
-All the tools used in this repo are free for open source. Services like **now**, **codecov** and **travis** are not free for closed source projects.
+#### Why use rollup with typescript?
+
+> Typescript can automatically convert the code to ES5 but I was more concerned about the file size so I am using typescript to convert `.tsx` to `.js` is ES6 and then rollup converts those files into **cjs**, **umd** and **es** builds.
+
+#### Why both docz and storybook?
+
+> Storybook has a lot of addons that help while development whereas docz seems great for detailed documentation and a pretty looking website. Also docz is slow if you are rendering PropsTable as it has parse through the whole tree on every change.
+
+**Note**: All the tools used in this repo are free for open source. Services like **now**, **codecov** and **travis** are not free for closed source projects.
 
 ## License
 

@@ -42,7 +42,7 @@ Few scripts are already written to make your life easier.
 
 #### Why both docz and storybook?
 
-> Storybook has a lot of addons that help while development whereas docz seems great for detailed documentation and a pretty looking website. Also docz is slow if you are rendering PropsTable as it has parse through the whole tree on every change.
+> Storybook has a lot of addons that help while development whereas docz seems great for detailed documentation and a pretty looking website. Also docz is slow if you are rendering PropsTable as it has to parse through the whole tree on every change.
 
 **Note**: All the tools used in this repo are free for open source. Services like **now**, **codecov** and **travis** are not free for closed source projects.
 

@@ -108,7 +108,7 @@
     "coverageDirectory": "<rootDir>/coverage"
   },
   "dependencies": {
-    "emotion": "^9.2.6",
+    "emotion": "^9.2.8",
     "react": "^16.4.2"
   }
 }

@@ -28,7 +28,7 @@
     "deploy": "npm run now-build && cd storybook-static && now"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.0.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
@@ -45,39 +45,39 @@
     "@storybook/addon-viewport": "^v4.0.0-alpha.20",
     "@storybook/addons": "^v4.0.0-alpha.20",
     "@storybook/react": "4.0.0-alpha.20",
-    "@types/enzyme": "^3.1.13",
-    "@types/jest": "^23.3.1",
+    "@types/enzyme": "^3.1.14",
+    "@types/jest": "^23.3.2",
     "@types/react-test-renderer": "^16.0.2",
     "@types/sinon": "^5.0.2",
     "@types/storybook__react": "^3.0.9",
-    "awesome-typescript-loader": "^5.2.0",
+    "awesome-typescript-loader": "^5.2.1",
     "babel-core": "^7.0.0-0",
     "babel-loader": "^8.0.2",
     "babel-plugin-require-context-hook": "^1.0.0",
     "chokidar": "^2.0.4",
-    "docz": "^0.11.0",
+    "docz": "^0.11.2",
     "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.4.0",
+    "enzyme-adapter-react-16": "^1.5.0",
     "husky": "^0.14.3",
-    "jest": "^23.5.0",
+    "jest": "^23.6.0",
     "jest-emotion": "^9.2.7",
     "moment": "^2.22.2",
     "prettier": "^1.14.2",
     "pretty-quick": "^1.6.0",
-    "react-test-renderer": "^16.4.2",
+    "react-test-renderer": "^16.5.1",
     "rimraf": "^2.6.2",
-    "rollup": "^0.65.1",
+    "rollup": "^0.66.0",
     "rollup-plugin-babel": "4.0.3",
     "rollup-plugin-cleanup": "^3.0.0",
     "rollup-plugin-commonjs": "^9.1.6",
     "rollup-plugin-filesize": "^4.0.1",
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
-    "serve": "^10.0.0",
-    "sinon": "^6.2.0",
+    "serve": "^10.0.1",
+    "sinon": "^6.3.3",
     "ts-jest": "^23.1.4",
     "typescript": "3.0.3",
-    "webpack": "^4.17.2"
+    "webpack": "^4.19.0"
   },
   "jest": {
     "globals": {
@@ -108,7 +108,7 @@
     "coverageDirectory": "<rootDir>/coverage"
   },
   "dependencies": {
-    "emotion": "^9.2.8",
-    "react": "^16.4.2"
+    "emotion": "^9.2.9",
+    "react": "^16.5.1"
   }
 }
